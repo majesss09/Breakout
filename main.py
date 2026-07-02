@@ -101,6 +101,7 @@ while game_is_on == True:
 
     
     if walls == [[] for _ in range(5)]:
+        screen.update()
         scoreboard.win()
         game_is_on = False
     
